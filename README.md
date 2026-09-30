@@ -102,50 +102,50 @@ Desarrollar e implementar un sistema web que permita a Moya's Pizza publicar su 
 
 ### 2.1 Identificación y registro de interesados
 
-Se identificaron ocho interesados relacionados con el desarrollo, la utilización y el seguimiento del sistema web de Moya's Pizza. El poder y el interés se valoran de **1 (muy bajo) a 5 (muy alto)**. La actitud y las puntuaciones representan una valoración inicial del equipo; los segmentos de clientes y los usuarios de prueba son grupos propuestos para el análisis del proyecto.
+Se identificaron **nueve interesados** relacionados con el proyecto. El poder y el interés se valoran de **1 (muy bajo) a 5 (muy alto)**. Las actitudes y puntuaciones son valoraciones iniciales para el taller.
 
-| Interesado | Necesidad | Poder (1–5) | Interés (1–5) | Actitud | Estrategia | Responsable del seguimiento |
-|---|---|:---:|:---:|---|---|---|
-| Dueño de Moya's Pizza | Gestionar el catálogo, recibir pedidos sin interrumpir la preparación y consultar las ventas. | 5 | 5 | Favorable | Gestionar de cerca mediante revisiones y validación de entregables. | Equipo de desarrollo |
-| Equipo de desarrollo | Disponer de requerimientos claros y cumplir el alcance y las restricciones del proyecto. | 4 | 5 | Favorable | Coordinar tareas, revisar avances y resolver dificultades continuamente. | Equipo de desarrollo |
-| Profesor del curso | Verificar el cumplimiento de los objetivos y entregables académicos. | 4 | 4 | Favorable | Presentar avances y atender la retroalimentación académica. | Equipo de desarrollo |
-| Clientes habituales | Consultar precios y promociones y realizar pedidos de forma sencilla y confiable. | 3 | 5 | Favorable | Mantener informados y solicitar comentarios sobre la experiencia de compra. | Equipo de desarrollo |
-| Clientes nuevos | Conocer el negocio, el catálogo y el proceso para realizar su primer pedido. | 2 | 4 | Neutral | Facilitar información clara y recopilar dudas de uso. | Equipo de desarrollo |
-| Proveedores tecnológicos | Que el uso de los servicios contratados respete sus condiciones y límites. | 4 | 3 | Neutral | Mantener satisfechos mediante el seguimiento de límites y condiciones de los planes gratuitos. | Equipo de desarrollo |
-| Usuarios encargados de probar el sistema | Contar con un sistema comprensible y poder reportar problemas antes de su lanzamiento. | 2 | 4 | Favorable | Involucrar en pruebas de usabilidad y recoger observaciones. | Equipo de desarrollo |
-| Visitantes ocasionales del sitio web | Consultar el menú o la información del negocio sin necesidad de realizar un pedido. | 1 | 2 | Neutral | Monitorear comentarios y patrones generales de uso, cuando estén disponibles. | Equipo de desarrollo |
+| Interesado | Necesidad | Poder | Interés | Actitud | Estrategia |
+|---|---|:---:|:---:|---|---|
+| Dueño de Moya's Pizza | Administrar pedidos, productos, promociones y ventas. | 5 | 5 | Favorable | Gestionar de cerca. |
+| Clientes | Consultar el menú y realizar pedidos fácilmente. | 3 | 5 | Favorable | Mantener informados. |
+| Personal de cocina | Recibir pedidos claros y conocer los tiempos de preparación. | 3 | 5 | Favorable | Involucrar en pruebas. |
+| Equipo de desarrollo | Contar con requerimientos claros y recursos suficientes. | 4 | 5 | Favorable | Gestionar de cerca. |
+| Administrador del sistema | Gestionar el catálogo, los pedidos y las promociones. | 4 | 5 | Favorable | Gestionar de cerca. |
+| Proveedores tecnológicos | Garantizar el uso adecuado de sus servicios. | 4 | 3 | Neutral | Mantener satisfechos. |
+| Profesor del curso | Verificar el cumplimiento de los objetivos académicos. | 4 | 4 | Favorable | Gestionar de cerca. |
+| Proveedores de ingredientes | Mantener la relación comercial con el negocio. | 2 | 2 | Neutral | Monitorear. |
+| Personal de entrega | Recibir información correcta de los pedidos. | 2 | 4 | Favorable | Mantener informado. |
 
 ### 2.2 Justificación de las valoraciones
 
-- **Dueño (5, 5):** tiene la autoridad para aprobar las decisiones comerciales y el máximo interés porque el sistema busca solucionar problemas de su operación diaria.
-- **Equipo de desarrollo (4, 5):** toma las decisiones técnicas y ejecuta el proyecto, aunque el dueño conserva la aprobación de las decisiones del negocio.
-- **Profesor (4, 4):** tiene influencia sobre los entregables y la evaluación académica, pero no sobre la operación comercial de Moya's Pizza.
-- **Clientes habituales (3, 5):** son usuarios directamente afectados por la experiencia de pedido. Sus opiniones pueden orientar mejoras, aunque no aprueban formalmente el proyecto.
-- **Clientes nuevos (2, 4):** necesitan comprender el catálogo y el proceso de compra; su influencia individual sobre las decisiones del proyecto es limitada.
-- **Proveedores tecnológicos (4, 3):** los límites y condiciones de los servicios gratuitos pueden afectar el funcionamiento o la implementación. No participan directamente en las decisiones del negocio, por lo que se les asigna un interés moderado.
-- **Usuarios de prueba (2, 4):** sus observaciones pueden revelar errores o problemas de usabilidad, pero no tienen autoridad para definir el alcance final.
-- **Visitantes ocasionales (1, 2):** pueden consultar el catálogo sin comprar ni participar en el desarrollo; su poder e interés iniciales se consideran bajos.
+- **Dueño (5, 5):** autoriza las decisiones comerciales y tiene interés directo en mejorar la operación diaria.
+- **Clientes (3, 5):** necesitan consultar información y hacer pedidos sin dificultades; influyen mediante sus comentarios, aunque no aprueban el proyecto.
+- **Personal de cocina (3, 5):** el flujo de recepción de pedidos y los tiempos de preparación afectan directamente su trabajo.
+- **Equipo de desarrollo (4, 5):** toma decisiones técnicas y ejecuta el proyecto, dentro del alcance acordado con el dueño.
+- **Administrador del sistema (4, 5):** utiliza las funciones de gestión del catálogo, pedidos y promociones, por lo que tiene influencia operativa e interés elevado. Este rol podría ser desempeñado por el propio dueño.
+- **Proveedores tecnológicos (4, 3):** las condiciones y límites de los servicios gratuitos pueden afectar la implementación, aunque no participan en las decisiones comerciales.
+- **Profesor (4, 4):** supervisa los entregables académicos y evalúa el trabajo, sin dirigir el negocio.
+- **Proveedores de ingredientes (2, 2):** mantienen una relación comercial con la pizzería, pero su participación en el desarrollo del sistema es limitada.
+- **Personal de entrega (2, 4):** necesita datos correctos para las entregas, aunque tiene poca autoridad sobre el alcance del proyecto.
 
 ### 2.3 Mapa Poder-Interés
 
-Se consideran **altos los valores 4 y 5**, y **bajos los valores del 1 al 3**.
+Se consideran **altos los valores 4 y 5** y **bajos los valores de 1 a 3**. El mapa corresponde a los nueve interesados del registro anterior.
+
+![Mapa Poder-Interés del proyecto Moya's Pizza](assets/mapa-poder-interes.png)
 
 | | **Interés bajo (1–3)** | **Interés alto (4–5)** |
 |---|---|---|
-| **Poder alto (4–5)** | **Mantener satisfechos**<br>Proveedores tecnológicos (4, 3) | **Gestionar de cerca**<br>Dueño de Moya's Pizza (5, 5)<br>Equipo de desarrollo (4, 5)<br>Profesor del curso (4, 4) |
-| **Poder bajo (1–3)** | **Monitorear**<br>Visitantes ocasionales (1, 2) | **Mantener informados**<br>Clientes habituales (3, 5)<br>Clientes nuevos (2, 4)<br>Usuarios de prueba (2, 4) |
-
-**Aplicación de las estrategias:** los interesados con poder e interés altos participarán en revisiones y decisiones pertinentes. Los proveedores tecnológicos se atenderán mediante la revisión de condiciones y límites de sus servicios. Los clientes y usuarios de prueba recibirán información y oportunidades para aportar comentarios. Los visitantes ocasionales se monitorearán sin requerir participación continua.
+| **Poder alto (4–5)** | **Mantener satisfechos:** proveedores tecnológicos (4, 3). | **Gestionar de cerca:** dueño de Moya's Pizza (5, 5); equipo de desarrollo (4, 5); administrador del sistema (4, 5); profesor del curso (4, 4). |
+| **Poder bajo (1–3)** | **Monitorear:** proveedores de ingredientes (2, 2). | **Mantener informados:** clientes (3, 5); personal de cocina (3, 5); personal de entrega (2, 4). |
 
 ### 2.4 Tres interesados críticos
 
-Se seleccionaron tres interesados por su relación directa con la aprobación, el desarrollo y la aceptación del sistema.
+**1. Dueño de Moya's Pizza.** Tiene autoridad para aprobar las decisiones comerciales y conoce las necesidades del negocio. Se le involucrará mediante reuniones semanales, revisión de prototipos, demostraciones del sistema y validación de los entregables.
 
-**1. Dueño de Moya's Pizza.** Es el principal interesado porque conoce las necesidades del negocio y autoriza las decisiones comerciales. Se le involucrará mediante reuniones periódicas, revisión de prototipos, demostraciones funcionales y validación del catálogo, el flujo de pedidos y el panel administrativo. El equipo de desarrollo será responsable de mantener la comunicación.
+**2. Personal de cocina.** El sistema debe presentar pedidos claros y tiempos de preparación realistas. Se le involucrará mediante entrevistas sobre el proceso actual y pruebas del flujo de recepción y actualización de pedidos.
 
-**2. Equipo de desarrollo.** Es responsable de convertir los requerimientos en un sistema funcional, respetando las restricciones de costo y alcance. Sus integrantes participarán en la planificación de entregas, la distribución de tareas, las revisiones de avance y las pruebas de cada componente. Se mantendrá una comunicación continua para identificar bloqueos y coordinar cambios.
-
-**3. Clientes habituales.** Su uso del catálogo y del proceso de pedidos permitirá comprobar si la solución resulta clara y práctica. Se les involucrará mediante consultas breves y pruebas de usabilidad, enfocadas en encontrar productos, comprender precios y promociones y completar pedidos. Sus comentarios se revisarán antes de la implementación final.
+**3. Clientes.** Utilizarán el catálogo y el proceso de pedidos. Se les involucrará mediante encuestas breves y pruebas de usabilidad para evaluar la navegación, la claridad de precios y la facilidad para realizar pedidos.
 
 ### 2.5 Enfoque de gestión del proyecto
 
