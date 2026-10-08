@@ -34,6 +34,10 @@
   - [Mapa Poder-Interés](#23-mapa-poder-interés)
   - [Tres interesados críticos](#24-tres-interesados-críticos)
   - [Enfoque de gestión del proyecto](#25-enfoque-de-gestión-del-proyecto)
+- [Semana 3: Formalización y gestión del proyecto](#semana-3-formalización-y-gestión-del-proyecto)
+  - [Acta de Inicio (Project Charter)](#31-acta-de-inicio-project-charter)
+  - [Definición del Scrum Team](#32-definición-del-scrum-team)
+  - [Análisis del entorno (Lean Canvas y EEFs)](#33-análisis-del-entorno-lean-canvas-y-eefs)
 - [Próximas semanas](#próximas-semanas)
 
 ---
@@ -156,6 +160,161 @@ El componente **predictivo** se utilizará para establecer el alcance general, l
 El componente **adaptativo** se utilizará para desarrollar y validar progresivamente el catálogo, el proceso de pedidos y el panel administrativo. Las revisiones con el dueño y las pruebas con usuarios permitirán ajustar la navegación, la presentación de la información y los flujos de trabajo conforme se identifiquen necesidades.
 
 El enfoque híbrido permite conservar una planificación inicial y controlar las restricciones del proyecto, sin impedir ajustes basados en la retroalimentación de los interesados durante el desarrollo.
+
+---
+
+## Semana 3: Formalización y gestión del proyecto
+
+### 3.1 Acta de Inicio (Project Charter)
+
+El acta formaliza el propósito, el alcance inicial y las condiciones generales del proyecto. Constituye una base de referencia para el equipo y para la validación de las decisiones con el dueño del negocio. **Se presenta como propuesta académica, pendiente de validación formal con el patrocinador.**
+
+| Elemento | Definición |
+|---|---|
+| Nombre del proyecto | Sistema web de catálogo y gestión de pedidos para Moya's Pizza. |
+| Organización beneficiaria | Moya's Pizza. |
+| Patrocinador y responsable de validación comercial | Dueño de Moya's Pizza. |
+| Equipo ejecutor | John Alejandro Araya Echeverría y Ryan Eliecer Vega Solano. |
+| Contexto académico | ISW-912, Universidad Técnica Nacional, período de trabajo de 14 semanas. |
+| Enfoque de gestión | Híbrido: planificación general predictiva y desarrollo incremental adaptativo. |
+| Estado del acta | Propuesta inicial, sujeta a revisión y aprobación. |
+
+#### 3.1.1 Justificación
+
+Actualmente, el dueño recibe pedidos por llamadas y WhatsApp mientras prepara pizzas. Esto ocasiona interrupciones, errores o pérdida de pedidos y falta de registros de ventas. El proyecto busca organizar la recepción de pedidos y facilitar la consulta del menú, las promociones y la información de ventas, sin incorporar costos operativos recurrentes adicionales a la renovación prevista del dominio.
+
+#### 3.1.2 Objetivos
+
+**Objetivo general:** Desarrollar e implementar un sistema web que permita a Moya's Pizza publicar su catálogo, recibir pedidos en línea y administrar su operación diaria, sin incorporar costos recurrentes al negocio.
+
+**Objetivos específicos:**
+
+1. Analizar el proceso actual de toma de pedidos e identificar sus principales puntos de falla.
+2. Definir los requerimientos funcionales y no funcionales junto con el cliente.
+3. Diseñar la estructura de datos del catálogo, las promociones y el historial de pedidos.
+4. Desarrollar el sitio público y el panel administrativo conforme a los requerimientos definidos.
+
+#### 3.1.3 Alcance general y límites
+
+**Incluye:** catálogo público de pizzas, combos, promociones y precios; carrito y proceso guiado para registrar pedidos con datos de contacto y tiempo estimado de espera; panel de acceso restringido para gestionar productos, precios, descuentos y promociones, visualizar y actualizar pedidos, y consultar el historial de ventas.
+
+**Excluye:** procesamiento de pagos en línea, cobro automático y comisiones por pedidos mediante plataformas externas. El pago se realizará en el local o contra entrega, según el método declarado por el cliente.
+
+**Límite operativo:** la gestión cotidiana del negocio y el abastecimiento de ingredientes no forman parte del desarrollo del sistema. El cálculo de espera deberá validarse con el negocio antes de considerarse una función terminada.
+
+#### 3.1.4 Entregables principales
+
+| Entregable | Resultado esperado |
+|---|---|
+| Análisis de requerimientos | Necesidades funcionales y no funcionales documentadas y revisadas. |
+| Diseño de datos | Estructura para productos, promociones, pedidos e historial de ventas. |
+| Catálogo público | Consulta de productos, precios y promociones vigentes. |
+| Flujo de pedidos | Carrito, captura de datos y registro de pedidos. |
+| Panel administrativo | Gestión del menú y de pedidos, con consulta de ventas. |
+| Pruebas y documentación | Evidencia de validación funcional y documentación de entrega. |
+
+#### 3.1.5 Restricciones y supuestos
+
+| Tipo | Descripción |
+|---|---|
+| Tiempo | El trabajo académico se organiza en un período de 14 semanas. |
+| Costo | Se priorizarán servicios en planes gratuitos; el único costo recurrente previsto es el dominio anual. |
+| Alcance | No se integrarán pagos en línea. |
+| Disponibilidad | La revisión de requisitos y resultados depende del tiempo que pueda dedicar el dueño. |
+| Supuesto | El negocio podrá facilitar información del menú y retroalimentación para las validaciones. |
+| Supuesto | Los servicios gratuitos elegidos serán suficientes para el alcance inicial; esto debe verificarse. |
+
+#### 3.1.6 Riesgos iniciales
+
+| Riesgo | Posible efecto | Respuesta propuesta |
+|---|---|---|
+| Límites o cambios en los planes gratuitos | Restricciones técnicas o necesidad de ajustar la solución. | Revisar cuotas y condiciones; evitar dependencias innecesarias. |
+| Poca disponibilidad del dueño | Retrasos en decisiones y validaciones. | Acordar revisiones breves y registrar decisiones pendientes. |
+| Cambios de requisitos durante el desarrollo | Retrabajo o retrasos. | Priorizar el Product Backlog y evaluar cada cambio frente al alcance. |
+| Tiempo académico limitado | Funcionalidades incompletas. | Entregar incrementos funcionales y priorizar lo indispensable. |
+| Manejo inadecuado de datos de contacto | Riesgos de privacidad y confianza. | Limitar los datos recopilados y aplicar controles de acceso. |
+
+#### 3.1.7 Criterios de éxito y validación
+
+Se considerará que la solución cumple su propósito inicial cuando se demuestre que: **(a)** el catálogo presenta productos y precios vigentes; **(b)** un cliente puede registrar un pedido con los datos requeridos; **(c)** el dueño puede consultar y actualizar los pedidos desde el panel; **(d)** existe un historial de ventas consultable; y **(e)** se respetan las exclusiones y restricciones acordadas. Estos criterios deberán convertirse en casos de prueba y ser validados con el dueño.
+
+Los indicadores de impacto definidos en la [Semana 1](#15-indicadores-de-verificación) —adopción del canal digital, errores de pedidos e historial de ventas— servirán para evaluar los resultados después de la puesta en uso. No se fijan porcentajes de mejora sin una línea base.
+
+### 3.2 Definición del Scrum Team
+
+El equipo académico está integrado por dos estudiantes. Para cubrir las responsabilidades solicitadas en clase, ambos participarán como **Developers** y cada uno asumirá adicionalmente una responsabilidad de gestión. Esta es una adaptación práctica por el tamaño del equipo, no una estructura de tres personas distintas.
+
+#### 3.2.1 Asignación de roles
+
+| Integrante | Rol asignado | Responsabilidades principales |
+|---|---|---|
+| **John Alejandro Araya Echeverría** | **Scrum Master y Developer** | Facilitar los eventos de Scrum, dar seguimiento a impedimentos, promover la mejora continua y desarrollar y probar funcionalidades. |
+| **Ryan Eliecer Vega Solano** | **Product Owner y Developer** | Organizar y priorizar el Product Backlog, aclarar requisitos con el dueño, orientar las decisiones hacia el valor del producto y desarrollar y probar funcionalidades. |
+
+El **dueño de Moya's Pizza** actuará como referente del negocio para validar necesidades y entregables; no se le asigna formalmente un rol interno del Scrum Team académico.
+
+#### 3.2.2 Responsabilidades compartidas
+
+| Actividad | John | Ryan |
+|---|---|---|
+| Planificación de Sprint | Participa y facilita | Participa y prioriza |
+| Gestión del Product Backlog | Apoya con estimaciones técnicas | Responsable de ordenarlo y aclararlo |
+| Seguimiento de impedimentos | Facilita su resolución | Colabora |
+| Diseño e implementación | Developer | Developer |
+| Pruebas y revisión de calidad | Developer | Developer |
+| Documentación y entregables académicos | Compartida | Compartida |
+| Revisión con el dueño | Facilita y presenta avances | Recopila retroalimentación y valida prioridades |
+
+### 3.3 Análisis del entorno (Lean Canvas y EEFs)
+
+El análisis identifica condiciones que pueden favorecer o limitar el desarrollo de Moya's Pizza. Se distinguen los **factores ambientales (EEFs)**, que no están bajo control directo del equipo, de las decisiones internas de alcance y organización.
+
+#### 3.3.1 Factores ambientales de la empresa (EEFs)
+
+| Factor | Condición relevante | Impacto y consideración para el proyecto |
+|---|---|---|
+| Tecnológico | Uso de servicios externos con planes gratuitos. | Las cuotas, políticas y disponibilidad del proveedor pueden limitar la solución; deben revisarse antes de desplegar. |
+| Económico | El negocio busca evitar costos recurrentes adicionales. | Condiciona la selección de infraestructura y obliga a vigilar el consumo de recursos. |
+| Organizacional y operativo | El dueño atiende pedidos y participa en la preparación. | Su disponibilidad para entrevistas y pruebas puede ser limitada; conviene programar validaciones breves. |
+| Legal y privacidad | El sitio recopilará datos de contacto para gestionar pedidos. | Deben considerarse las obligaciones aplicables de protección de datos y el acceso restringido a esa información. |
+| Académico | El curso establece un horizonte de trabajo de 14 semanas. | Exige priorizar entregables y coordinar las revisiones académicas. |
+| Adopción de usuarios | Los clientes están acostumbrados a llamadas y WhatsApp. | La interfaz debe ser clara y el cambio de canal debe validarse con usuarios. |
+
+#### 3.3.2 Lean Canvas del proyecto
+
+El siguiente Lean Canvas es un **planteamiento inicial** para analizar la solución; sus hipótesis deberán contrastarse con el dueño y los usuarios.
+
+| Bloque | Aplicación en Moya's Pizza |
+|---|---|
+| **1. Problema** | Errores o pérdida de pedidos, interrupciones en cocina y ausencia de registros de ventas. |
+| **2. Segmentos de clientes** | Clientes actuales y potenciales de la pizzería que desean consultar el menú y realizar pedidos. |
+| **3. Propuesta única de valor** | Un canal propio que organiza los pedidos y permite al dueño gestionar información comercial sin depender de comisiones por pedido. |
+| **4. Solución** | Catálogo público, proceso guiado de pedidos y panel administrativo. |
+| **5. Canales** | Sitio web propio; llamadas y WhatsApp como canales actuales de contacto y posible difusión. |
+| **6. Fuentes de ingresos** | Ventas de pizzas, combos y otros productos del negocio; el sistema no introduce pagos digitales. |
+| **7. Estructura de costos** | Renovación anual del dominio y uso previsto de planes gratuitos; cualquier cambio de consumo deberá evaluarse. |
+| **8. Métricas clave** | Porcentaje de pedidos digitales, cantidad de errores reportados y disponibilidad del historial de ventas. |
+| **9. Ventaja diferencial** | Adaptación del catálogo y del flujo de pedidos a la operación específica de Moya's Pizza; ventaja propuesta, aún no validada. |
+
+#### 3.3.3 Influencia de los interesados (stakeholders)
+
+Se retoma el registro de **nueve interesados** de la [Semana 2](#21-identificación-y-registro-de-interesados), sin modificar sus puntuaciones ni reemplazar el [mapa Poder-Interés](#23-mapa-poder-interés).
+
+| Interesado o grupo | Influencia principal | Respuesta prevista |
+|---|---|---|
+| Dueño de Moya's Pizza | Autoriza decisiones comerciales y valida necesidades. | Reuniones y demostraciones periódicas. |
+| Clientes | Determinan la facilidad de uso y la aceptación del canal web. | Pruebas de usabilidad y recopilación de comentarios. |
+| Personal de cocina | Aporta información sobre la recepción y preparación de pedidos. | Entrevistas y validación del flujo operativo. |
+| Equipo de desarrollo | Define e implementa las soluciones técnicas. | Coordinación de Sprints y revisión de calidad. |
+| Administrador del sistema | Gestionará el catálogo y los pedidos; puede ser el dueño. | Validar permisos y tareas administrativas. |
+| Proveedores tecnológicos | Condicionan la disponibilidad y los límites de infraestructura. | Revisar condiciones y monitorear uso. |
+| Profesor del curso | Evalúa los entregables y requisitos académicos. | Presentar avances y atender observaciones. |
+| Proveedores de ingredientes | Relación comercial indirecta con el proyecto informático. | Monitorear sin involucramiento intensivo. |
+| Personal de entrega | Requiere información correcta para completar entregas. | Consultar necesidades relacionadas con datos de pedido. |
+
+#### 3.3.4 Relación con el enfoque híbrido
+
+El **componente predictivo** permite acordar límites, recursos, criterios de éxito y entregables generales. El **componente adaptativo**, organizado mediante Sprints, permite revisar incrementos, priorizar el Product Backlog y ajustar detalles a partir de las validaciones. Así se mantiene la coherencia con el enfoque seleccionado en la [Semana 2](#25-enfoque-de-gestión-del-proyecto).
 
 ---
 
